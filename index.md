@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Daniele Caratelli
 
-You can use the [editor on GitHub](https://github.com/danicaratelli/danicaratelli.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Bio: blah blah blah
 
 ### Markdown
 
