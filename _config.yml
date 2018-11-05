@@ -47,7 +47,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : 
 
 # SEO Related
 google_site_verification :
@@ -86,7 +86,7 @@ author:
   location         : 
   employer         : "Stanford University"
   googlescholar    : 
-  email            :
+  email            : "danicaratelli@stanford.edu"
   uri              :
   bitbucket        :
   codepen          :
