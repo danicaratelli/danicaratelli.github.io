@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : 
-  avatar           : "images/bikepic"
+  avatar           : "images/bikepic.png"
   bio              : "Ph.D. candidate in economics. Macro = <3"
   location         : 
   employer         : "Stanford University"
