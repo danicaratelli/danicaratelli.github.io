@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Daniele Caratelli"
-  avatar           : "profile.png"
+  avatar           : "pic."
   bio              : "Ph.D. candidate in economics. Macro = <3"
-  location         : "Stanford, CA"
+  location         : 
   employer         : "Stanford University"
   googlescholar    : 
   email            :
