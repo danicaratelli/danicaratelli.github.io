@@ -33,7 +33,7 @@ Work experience
   * Research: Time Series, Nowcasting, Monetary Economics
   * Supervisors: Dr. Domenico Giannone, Dr. Argia Sbordone    
   
-Honors and Awardsx
+Honors and Awards
 ======
-* David S. Hu Award for best thesis in macroeconomics, Department of Economics, The University of Chicago (2015).
-* The Becker Friedman Institute Award for Academic Achievement, Becker Friedman Institute, The University of Chicago (2015).
+* <i>David S. Hu Award<i> for best thesis in macroeconomics, Department of Economics, The University of Chicago (2015).
+* <i>The Becker Friedman Institute Award<i> for Academic Achievement, Becker Friedman Institute, The University of Chicago (2015).
