@@ -7,6 +7,18 @@ redirect_from:
   - /resume
 ---
 
+<head>
+  <!-- Default head tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+  <!-- Favicon head tag -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
 {% include base_path %}
 
 Education
@@ -19,26 +31,9 @@ Work experience
 * Federal Reserve Bank of New York 2015-2017: Research Analyst
   * Macroeconomic and Monetary Studies Function
   * Research: Time Series, Nowcasting, Monetary Economics
-  * Supervisors: Dr. Domenico Giannone, Dr. Argia Sbordone
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  * Supervisors: Dr. Domenico Giannone, Dr. Argia Sbordone    
   
-Talks
+Honors and Awardsx
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* David S. Hu Award for best thesis in macroeconomics, Department of Economics, The University of Chicago (2015).
+* The Becker Friedman Institute Award for Academic Achievement, Becker Friedman Institute, The University of Chicago (2015).
