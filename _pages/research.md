@@ -31,6 +31,7 @@ author_profile: true
 Blogs
 ======
 * [*Just Released: Introducing the New York Fed Staff Nowcast*](http://libertystreeteconomics.newyorkfed.org/2016/04/just-released-introducing-the-frbny-nowcast.html), with G. Aarons, M. Cocci, D. Giannone, A. Sbordone, A. Tambalotti
-	*hello
-* *Opening the Toolbox: The Nowcasting Code on GitHub*, with P. Adams, B. Bok, D. Giannone, E. Qian, A. Sbordone, C. Schneier, A. Tambalotti
-	*hello
+  * check out the [Nowcasting Report](https://libertystreeteconomics.newyorkfed.org/2016/04/just-released-introducing-the-frbny-nowcast.html)
+  * in the news [Bloomberg](https://www.bloomberg.com/news/videos/2016-04-13/introducing-the-frbny-nowcast)
+
+* [*Opening the Toolbox: The Nowcasting Code on GitHub*](https://libertystreeteconomics.newyorkfed.org/2018/08/opening-the-toolbox-the-nowcasting-code-on-github.html), with P. Adams, B. Bok, D. Giannone, E. Qian, A. Sbordone, C. Schneier, A. Tambalotti
