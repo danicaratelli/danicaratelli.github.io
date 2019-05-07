@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
@@ -17,9 +17,6 @@ author_profile: true
   <link rel="icon" href="../favicon.ico" type="image/x-icon">
 </head>
 
-<font size="+2"><p style = "font-family:font-size:20px;font-weight: bold;">
-Publications
-</p><font>
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
@@ -31,9 +28,8 @@ Publications
 {% endfor %}
 
 
-<font size="+2"><p style = "font-family:font-size:20px;font-weight: bold;">
 Blogs
-</p><font>
+======
 * [*Just Released: Introducing the New York Fed Staff Nowcast*](http://libertystreeteconomics.newyorkfed.org/2016/04/just-released-introducing-the-frbny-nowcast.html), with G. Aarons, M. Cocci, D. Giannone, A. Sbordone, A. Tambalotti
   * check out the [Nowcasting Report](https://libertystreeteconomics.newyorkfed.org/2016/04/just-released-introducing-the-frbny-nowcast.html)
   * in the news [Bloomberg](https://www.bloomberg.com/news/videos/2016-04-13/introducing-the-frbny-nowcast)
