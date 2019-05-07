@@ -21,10 +21,12 @@ redirect_from:
 
 {% include base_path %}
 
+<p style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
 Education
+</p>
 ======
-* B.A. in Mathematics & Economics, University of Chicago, 2015
-* Ph.D in Economics, Stanford University, 2022 (expected)
+* Ph.D in Economics, Stanford University, 2017-present
+* B.A. in Mathematics & Economics, University of Chicago, 2011-2015
 
 Work experience
 ======
