@@ -21,10 +21,9 @@ redirect_from:
 
 {% include base_path %}
 
-<p style = "font-family:georgia,garamond,serif;font-size:40px;font-style:italic;">
+<p style = "font-family:font-size:20px;font-style:italic;">
 Education
 </p>
-======
 * Ph.D in Economics, Stanford University, 2017-present
 * B.A. in Mathematics & Economics, University of Chicago, 2011-2015
 
