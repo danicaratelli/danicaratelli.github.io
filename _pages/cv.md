@@ -21,7 +21,7 @@ redirect_from:
 
 {% include base_path %}
 
-<p style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+<p style = "font-family:georgia,garamond,serif;font-size:40px;font-style:italic;">
 Education
 </p>
 ======
