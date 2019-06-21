@@ -31,7 +31,7 @@ author_profile: true
 
 Work in Progress
 ======
-* [*Monetary Policy in a Heterogeneous Currency Union
+* [*Monetary Policy in a Heterogeneous Currency Union*]
 
 
 Blogs
