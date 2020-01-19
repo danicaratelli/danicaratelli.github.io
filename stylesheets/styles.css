@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
 
 body {
   padding:17.5px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
-  overflow: auto;
+  overflow: auto;	
 }
 
 h1, h2, h3, h4, h5, h6 {
