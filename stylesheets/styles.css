@@ -95,10 +95,12 @@ img {
   max-width:100%;
 }
 
-header {
+header{
   width:270px;
-  float:left;
   position:fixed;
+  top:10px;
+  bottom:10px;
+  overflow:auto;
 }
 
 header ul {
