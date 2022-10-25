@@ -1,0 +1,215 @@
+ \documentclass[margin,line]{res}                          % Custom class: "res.cls" file needed (included)
+
+% Document:
+\usepackage{setspace}                                     % Allows for custom margins, etc.
+\usepackage{fullpage}                                     % Use the full page
+
+% Customize document size:
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{0.5in}
+
+% Font/text:
+%\usepackage{lmodern}                                     % Latin Modern fonts
+%\usepackage[latin9]{inputenc}                             % Font definition and input type
+%\usepackage{fourier}                                      % Utopia Regular with Fourier fonts
+%\usepackage[T1]{fontenc}                                  % Font output type
+%\usepackage{textcomp}                                     % Supports many additional symbols
+\usepackage{color}                                        % Enables colored text
+\definecolor{darkblue}{RGB}{18,113,158}                 % Custom color: dark blue
+\usepackage[hyperfootnotes=false,bookmarksopen]{hyperref} 
+\DeclareUnicodeCharacter{00A0}{~}
+% Enable hyperlinks, expand menu subtree
+\hypersetup{                                              % Custom hyperlink settings
+	pdffitwindow=false,                                   % Window fit to page when opened
+	pdfstartview={XYZ null null 1.00},                    % Fits the zoom of the page to 100%
+	pdfnewwindow=true,                                    % Links in new window
+	colorlinks=true,                                      % false: boxed links; true: colored links
+	linkcolor=darkblue,                                   % Color of internal links
+	citecolor=darkblue,                                   % Color of links to bibliography
+	urlcolor=darkblue,                                    % Color of external links
+	pdfauthor = {You},                                    % PDF metadata - set within hypersetup
+	pdfkeywords = {field, etc.},                          % PDF metadata - set within hypersetup
+	pdftitle = {Daniele Caratelli: Curriculum Vitae},             % PDF metadata - set within hypersetup
+	pdfsubject = {Curriculum Vitae},                      % PDF metadata - set within hypersetup
+	pdfpagemode = UseNone}                                % PDF metadata - set within hypersetup
+
+% Miscellaneous:
+\usepackage{datetime}                                     % Custom date format for date field
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}    % Defining month year date format
+
+% Customize page headers:
+\usepackage{fancyhdr}                                     % Used for custom page headers
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\rhead{\small \vspace{0.25cm}} %header at the right
+\headsep = 1cm % = 0.5cm MAY NEED ADJUSTING IN DIFFERENT TEX ENVIRONMENTS
+% FIRST PAGE ONLY (redefine the plain pagestyle
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}
+	\headsep = 0.25cm
+	\rhead{\vspace{0.6cm }}
+}
+
+\def\tinyskip{\vspace\tinyskipamount}
+\newskip\tinyskipamount \tinyskipamount=0.5pt plus 0.1pt minus 0.1pt
+
+% Define list environments:
+\newenvironment{list1}{
+	\begin{list}{\ding{113}}{%
+			\setlength{\itemsep}{0in}
+			\setlength{\parsep}{0in} \setlength{\parskip}{0in}
+			\setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+			\setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+	\begin{list}{$\bullet$}{%
+			\setlength{\itemsep}{0in}
+			\setlength{\parsep}{0in} \setlength{\parskip}{0in}
+			\setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+			\setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	
+	\name{ {\LARGE Daniele Caratelli} \vspace*{.1in}}
+	
+	\begin{resume}
+		\thispagestyle{plain} % to use first page footer
+		
+		\section{\sc Personal \\Details}
+		\vspace{.05in}
+		\begin{tabular}{@{}p{0.20in}p{2.75in}p{2.75in}}
+			& Department of Economics      & +1 (773) 738-5912
+			\\    
+			& Stanford University  & \href{mailto:danicara@stanford.edu}{danicara@stanford.edu} \\                
+			& Stanford, CA 94305-6072 %579 Jane Stanford Way
+			& \href{https://stanford.edu/~danicara/}{https://stanford.edu/$\sim$danicara/}%\\
+			%& Stanford, CA 94305-6072
+		\end{tabular}
+		
+		\section{\sc Education}
+		\begin{list1}
+			\item[] \textbf{Ph.D. in Economics,} Stanford University \hfill June 2023 (Expected)\smallskip			
+			\item[] \textbf{B.A. in Economics and Mathematics (Honors),} University of Chicago \hfill 2011 -- 2015	
+		\end{list1}
+		
+		\section{\sc References}
+		\vspace{.05in}
+		\begin{tabular}{@{}p{0.20in}p{2.75in}p{2.75in}}
+			&   \href{https://pkehoe.people.stanford.edu/}{Patrick Kehoe}   (Primary)  & \href{https://aauclert.people.stanford.edu/}{Adrien Auclert} \\    
+			& Dept. of Economics, Stanford University  &   Dept. of Economics, Stanford University\\    
+			&   \href{mailto:pkehoe@stanford.edu}{pkehoe@stanford.edu}   &  \href{mailto:aauclert@stanford.edu}{aauclert@stanford.edu} \\    
+			& & \\
+			&  \href{https://rehall.people.stanford.edu/}{Robert Hall}   &   \href{https://sites.google.com/site/elenapastorino1econ}{Elena Pastorino}  
+			\\
+			& Dept. of Economics, Stanford University   &   Hoover Institution, Stanford University  
+			\\
+			& \href{mailto:rehall@stanford.edu}{rehall@stanford.edu}   &   \href{mailto:epastori@stanford.edu}{epastori@stanford.edu}
+		\end{tabular}
+		
+		\section{\sc Research Fields}% and Teaching Fields}
+	\begin{list1}
+		\item[] Macroeconomics, Monetary Economics and Macro-Labor
+		%\item[] Financial economics, financial networks
+	\end{list1}
+	
+	\section{\sc Working Papers}
+	\begin{list1}
+		\item[] \href{https://danicaratelli.github.io/research/papers/JMP_Caratelli.pdf}{\textbf{{\color{darkblue}``Labor Market Recoveries Across the Wealth Distribution''}}}\smallskip
+		\item[] \emph{\textbf{Job Market Paper}}\smallskip
+		\item[] This paper studies why, in the aftermath of recessions, low-wealth workers experience larger falls and slower recoveries in earnings than high-wealth workers. I show that differences in job-switching and job-losing rates play an important role in explaining these earnings dynamics. I build a macro model of the labor market that includes a novel ingredient, which I document and quantify empirically: when workers switch to new jobs they suffer a 6.4 percentage point increase in their job-loss probability over the first fifteen months at the new job. Through this model I conclude that differences in job-switching and job-losing by wealth, which the model can endogenously reproduce, explain 42 percent of the gap in earnings between low- and high-wealth workers following the Great Recession. Furthermore, the model is consistent with the sudden increase in job-switching that the US labor market experienced following the Pandemic recession, suggesting that generous government stimulus played a sizable role in the recovery.  
+		
+		\vspace{7pt}
+		
+		\item[] \href{https://danicaratelli.github.io/research/papers/OptimalMP_CaratelliHalperin.pdf}{\textbf{``Optimal Monetary Policy with Menu Costs is Nominal Wage Targeting''}} with Basil Halperin\smallskip
+		\item[] We show analytically that ensuring stable nominal wage growth is optimal monetary policy in a multisector economy with menu costs. This nominal wage targeting contrasts with inflation targeting, the optimal policy prescribed by the textbook New Keynesian model in which firms are permitted to adjust their prices only randomly and exogenously. The intuition is that stabilizing nominal wages minimizes the number of firms which need to adjust their prices, and therefore minimizes the resources wasted on menu costs. We show that the analytical result that nominal wage targeting is superior to inflation targeting carries over in a rich quantitative model.
+		\vspace{9pt}		
+	\end{list1}
+	
+	\section{\sc Work in Progress}
+	\begin{list1}
+		\item[] ``Heterogeneous Currency Union: MPCs and Tradable Shares " with Riccardo Masolo \smallskip
+	\end{list1}
+	
+	\section{\sc Published Papers}
+	\begin{list1}
+		\item[] \href{https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-083120-111540}{\textbf{``Macroeconomic Nowcasting and Forecasting with Big Data"}} with  Brandyn Bok, Domenico Giannone, Argia Sbordone, and Andrea Tambalotti  Jackson, \textit{\textbf{Annual Review of Economics}}, Vol. 10:615-643, 2018 \smallskip
+	\end{list1}
+	
+	
+	\section{\sc Relevant Positions}
+	\begin{list1}
+		\item[] \textbf{Bank of England}  \hfill 2020 -- 2022\tinyskip
+		\item[] {Academic Visitor}
+		\smallskip
+		\item[] \textbf{Stanford University}  \hfill 2021\tinyskip
+		\item[] {Research Assistant to Patrick Kehoe and Elena Pastorino}
+		\smallskip
+		\item[] \textbf{Bank of England}  \hfill Summer 2020\tinyskip
+		\item[] {Ph.D. Intern}
+		\smallskip
+		\item[] \textbf{Stanford University}  \hfill 2018-2020 \tinyskip
+		\item[] {Research Assistant to Adrien Auclert}\smallskip
+		\item[] \textbf{Federal Reserve Bank of New York}  \hfill 2015-2017 \tinyskip
+		\item[] {Research Analyst, Macro and Monetary Division}
+		
+	\end{list1}
+	
+	\section{\sc Teaching Experience}
+	\begin{list1}
+		\item[] \textbf{Department of Economics, Stanford University} \smallskip
+		\item[] TA for Luigi Bocola, Econ 168 (International Finance)\hfill Spring 2021\smallskip
+		\item[] TA for Scott McKeon, Econ 102A (Introduction to Statistical Methods)\hfill Fall, Winter 2020\smallskip
+	\end{list1}
+	
+	\section{\sc Awards \& Fellowships}
+	\begin{list1}
+		\item[] E.S. Shaw and B.F. Haley Fellowship for Economics, SIEPR \hfill 2022 -- 2023\smallskip
+		\item[] Dissertation Fellowship, Federal Reserve Bank of St. Louis  \hfill Summer 2021\smallskip
+		\item[] Doctoral Grant, Washington Center for Equitable Growth  \hfill 2021 \smallskip
+		\item[] David S. Hu Award, The University of Chicago \hfill 2015\smallskip
+		\item[] Becker Friedman Institute Award for Academic Achievement, The University of Chicago \hfill 2015\smallskip   
+	\end{list1}
+	
+	\section{\sc Refereeing}
+	\begin{list1}
+		\item[] \emph{Journal of Business \& Economic Statistics}; \emph{International Journal of Forecasting} \smallskip
+	\end{list1}
+	
+	\section{\sc External Presentations}
+	\begin{list1}
+		\item[] St. Louis Fed, Dartmouth College, Bank of England  \hfill 2021 \smallskip
+	\end{list1}
+	
+	\section{\sc Pre-academic Work} 
+	\begin{list1}
+		\item[] \href{https://libertystreeteconomics.newyorkfed.org/2018/08/opening-the-toolbox-the-nowcasting-code-on-github/}{\textbf{``Opening the Toolbox: The Nowcasting Code on GitHub"}}, \textit{\textbf{Liberty Street Economics}}  \smallskip
+		\item[] \href{https://libertystreeteconomics.newyorkfed.org/2016/04/just-released-introducing-the-frbny-nowcast/}{\textbf{``Just Released: Introducing the New York Fed Staff Nowcast"}}, \textit{\textbf{Liberty Street Economics}} \smallskip            
+	\end{list1}
+	
+	\section{\sc Other}
+	\begin{list1}
+		\item[] Programming: Julia, Python, Matlab, and Stata \smallskip
+		\item[] Languages: Italian (native) and English (native) \smallskip
+		\item[] Citizenship: USA, Italy \smallskip
+	\end{list1}
+	
+	
+	%\section{\sc Programming Languages}
+	%\begin{list1}
+	%\item[] Mathematica, Matlab, R, VBA
+	%\end{list1}
+	
+	
+\end{resume}
+\end{document}
+
