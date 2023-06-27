@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="shortcut icon" type="image/png" href="favico.png"/>
     <title>Daniele Caratelli</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -17,13 +18,68 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
+
       ga('create', 'UA-65546321-1', 'auto');
       ga('send', 'pageview');
     </script>
-    <!-- Github button-->
+    <!-- Github button -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    </script>
+    <style>
+      button.accordion2 {
+      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      cursor: pointer;
+      padding: 0px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 100%;
+      transition: 0.4s;
+      background-color: #f8f8f8;
+      }
+      button.accordion {
+      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      cursor: pointer;
+      padding: 0px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 100%;
+      transition: 0.4s;
+      background-color: #f8f8f8;
+      }
+      button.accordion.active, button.accordion:hover {
+      background-color: #f8f8f8;
+      }
+      button.accordion:after {
+      content: '[+]';
+      font-size: 90%;
+      color:#777;
+      float: left;
+      margin-left: 1px;
+      }
+
+      button.accordion2:after {
+      content: '';
+      font-size: 90%;
+      color:#777;
+      float: left;
+      margin-left: 1px;
+      }
+
+      button.accordion.active:after {
+      content: "[\2212]";
+      }
+      div.panel {
+      padding: 0 20px;
+      margin-top: 5px;
+      display: none;
+      background-color: white;
+      font-size: 100%;
+      }
+      div.panel.show {
+      display: block !important;
+      }
+    </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PL2T814GN"></script>
     <script>
@@ -36,29 +92,107 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-	<br>
+      <header>    
+        <br>
         <h1><a href="https://danicaratelli.github.io/"><b>Daniele Caratelli</b></a></h1>
         <!--<p>Ph.D. candidate in Economics <br /> Stanford University <br /> <img src="at.png" width=150 height=17> </p>-->
 	<p><img src="at.png" width=200 height=22> </p>
         <h3><p class="view"><a href="https://danicaratelli.github.io/">Home</a></p></h3>
-        <h3><p class="view"><a href="https://danicaratelli.github.io/research.html">Research</a></p></h3>
+        <!--<h3><p class="view"><a href="https://danicaratelli.github.io/research.html">Research</a></p></h3>-->
         <!--<h3><p class="view"><a href="https://danicaratelli.github.io/teaching.html">Teaching</a></p></h3>-->
-	<!--<h3><p class="view"><a href="https://danicaratelli.github.io/research/cv_caratelli.pdf" target="_blank">CV</a></p></h3>-->
+	<!--<h3><p class="view"><a href="https://danicaratelli.github.io/research/cv.pdf" target="_blank">CV</a></p></h3>-->
 	<h3><p class="view"><a href="https://danicaratelli.github.io/fun.html">Fun</a></p></h3>
-	<p class="view"><img src="portrait_circle.png" width=235 height=235></p>		
+	<p class="view"><img src="portrait_circle.png" width=235 height=235></p>
 	<!--<a class="github-button" href="https://github.com/danicaratelli" aria-label="@danicaratelli on GitHub">@danicaratelli</a>-->
       </header>
       <section>
 	<br>
 	<br>
         <!--<h3><a id="updates" class="anchor" href="#updates" aria-hidden="true"><span class="octicon octicon-link"></span></a>About me:</h3>-->
-	<p>  Hello, and welcome to my website!</p><br />
-	I will be starting as an economist at the U.S. Treasury <a href="https://www.financialresearch.gov/"  target="_blank">Office of Financial Research</a> in July 2023. My <a href="https://danicaratelli.github.io/research.html" >research</a> focuses on macroeconomics, specifically on monetary economics and labor macroeconomics.</p><br />
-	<!--<p><a style="font-weight:bold">I will be on the job market during the 2022-2023 academic year.</a></p><br />-->
+	I am a research economist at the U.S. Treasury <a href="https://www.financialresearch.gov/"  target="_blank">Office of Financial Research</a>. My <a href="https://danicaratelli.github.io/research.html" >research</a> focuses on macroeconomics, specifically on monetary economics and labor macroeconomics.</p><br/>
 	<p>For more details here is my <class="view"><a href="https://danicaratelli.github.io/research/cv_caratelli.pdf" target="_blank">CV</a>.</p>
       </section>
+<section>
+	<br>			
+
+	<h1 style=""font-size:100%; font-weight:bold">Research</h1>
+	<br>
+	<!--WORK IN PROGRESS-->				
+	<h3><a id="updates" class="anchor" href="#surveys" aria-hidden="true"><span class="octicon octicon-link"></span></a>Working Papers:</h3>
+	
+	<p> <a style="font-size:100%; font-weight:bold" href="https://danicaratelli.github.io/research/papers/JMP_Caratelli.pdf" target="_blank">Labor Market Recoveries Across the Wealth Distribution</a>
+	<br /><small><i>Winner of the 2022 Best Job Market Paper Award, EEA and UniCredit Foundation</i></small><br />
+	<button class="accordion" style="color: #4BA290; opacity: 0.8;">
+	  Abstract
+	</button>
+	</p>
+	<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">This paper studies why, even after accounting for standard characteristics, low-wealth workers experience larger falls and slower recoveries in earnings than high-wealth workers do after the onset of recessions. I show that differences in job-switching and job-losing rates are important in explaining these dynamics. To do so, I build a quantitative search and matching model with incomplete markets, on-the-job search, and in which workers who switch jobs experience an increase in the risk of subsequent job-loss, a fact I document empirically. Wages are determined by a generalized alternating offer bargaining protocol that accommodates risk-aversion and wealth accumulation. Using this model, I conclude that cyclical differences in job-switching and job-losing by wealth, which the model can endogenously reproduce, explain 40 percent of the gap in the earnings recovery between low- and high-wealth workers following the Great Recession. I apply the model to study the post-Pandemic behavior of job-switching and show that fiscal stimulus alleviated its fall and sustained its recovery.</div>
+	</p>
+	<p> <a style="font-size:100%; font-weight:bold" href="https://basilhalperin.com/papers/menucosts.pdf" target="_blank">Optimal Monetary Policy with Menu Costs is Nominal Wage Targeting</a>
+        <br />with Basil Halperin
+	<br /><small><i>Supported by the Washington Center for Equitable Growth</i></small><br />
+	<button class="accordion" style="color: #4BA290; opacity: 0.8;">
+	  Abstract
+	</button>
+	</p>
+	<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  We show analytically that ensuring stable nominal wage growth is optimal monetary policy in a multisector economy with menu costs. This nominal wage targeting contrasts with inflation targeting, the optimal policy prescribed by the textbook New Keynesian model in which firms are permitted to adjust their prices only randomly and exogenously. The intuition is that stabilizing nominal wages minimizes the number of firms which need to adjust their prices, and therefore minimizes the resources wasted on menu costs. We show that the analytical result that nominal wage targeting is superior to inflation targeting carries over in a rich quantitative model. </div>
+	<!--<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">  We show analytically that ensuring stable nominal wage growth is optimal monetary policy in a multisector economy with fixed menu costs for adjusting goods prices, even when wages are completely flexible. This nominal wage targeting contrasts with inflation targeting, the optimal policy prescribed by the textbook New Keynesian model in which firms can only randomly adjust their prices. Menu costs, unlike the conventional model, induce state-dependent pricing and are less tractable to work with. We build an analytical model to show that optimal monetary policy is exactly nominal wage targeting for shocks that are not too small, and approximately so otherwise. </div>-->
+	<br>
+	<br>
+
+	<!-- PUBLICATIONS
+	<h3><a id="updates" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Publications:</h3>
+	<p><a style="font-weight:bold" href="https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr830.pdf" target="_blank">Macroeconomic Nowcasting and Forecasting with Big Data</a><br> with Brandyn Bok, Domenico Giannone, Argia Sbordone, Andrea Tambalotti <br /> (<b>Annual Review of Economics</b>, 2018)
+	 <a href = "https://github.com/FRBNY-TimeSeriesAnalysis/Nowcasting"><button class="accordion2" style="color: #4BA290; opacity: 0.8;">  Code	</button>  </a>
+	<button class="accordion" style="color: #4BA290; opacity: 0.8;">
+	  Abstract
+	</button>
+	</p>
+	<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Data, data, data… Economists know their importance well, especially when it comes to monitoring macroeconomic conditions - the basis for making informed economic and policy decisions. Handling large and complex data sets was a challenge that macroeconomists engaged in real-time analysis faced long before so-called big data became pervasive in other disciplines. We review how methods for tracking economic conditions using big data have evolved over time and explain how econometric techniques have advanced to mimic and automate best practices of forecasters on trading desks, at central banks, and in other market-monitoring roles. We present in detail the methodology underlying the New York Fed Staff Nowcast, which employs these innovative techniques to produce early estimates of GDP growth, synthesizing a wide range of macroeconomic data as they become available. </div>
+	<br>
+	<br>-->
+
+	<!-- SURVEYS -->
+	<h3><a id="updates" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Publications:</h3>
+	<p><a style="font-weight:bold" href="https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr830.pdf" target="_blank">Macroeconomic Nowcasting and Forecasting with Big Data</a><br> with Brandyn Bok, Domenico Giannone, Argia Sbordone, Andrea Tambalotti <br /> (<b>Annual Review of Economics</b>, 2018)
+	 <a href = "https://github.com/FRBNY-TimeSeriesAnalysis/Nowcasting"><button class="accordion2" style="color: #4BA290; opacity: 0.8;">  Code	</button>  </a>
+	<button class="accordion" style="color: #4BA290; opacity: 0.8;">
+	  Abstract
+	</button>
+	</p>
+	<div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> Data, data, data… Economists know their importance well, especially when it comes to monitoring macroeconomic conditions - the basis for making informed economic and policy decisions. Handling large and complex data sets was a challenge that macroeconomists engaged in real-time analysis faced long before so-called big data became pervasive in other disciplines. We review how methods for tracking economic conditions using big data have evolved over time and explain how econometric techniques have advanced to mimic and automate best practices of forecasters on trading desks, at central banks, and in other market-monitoring roles. We present in detail the methodology underlying the New York Fed Staff Nowcast, which employs these innovative techniques to produce early estimates of GDP growth, synthesizing a wide range of macroeconomic data as they become available. </div>
+	<br>
+	<br>
+	<!-- BLOG -->
+	<h3><a id="updates" class="anchor" href="#blogs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Blog posts:</h3>
+	<p> <a style="font-weight:bold" href="https://libertystreeteconomics.newyorkfed.org/2018/08/opening-the-toolbox-the-nowcasting-code-on-github.html" target="_blank">Opening the Toolbox: The Nowcasting Code on GitHub</a><br> with Patrick Adams, Brandyn Bok, Domenico Giannone, Eric Qian, Argia Sbordone, Camilla Schneier, Andrea Tambalotti<br /> (<b>Liberty Street Economics</b>, 2018)
+	</p>
+	<p> <a style="font-weight:bold" href="https://libertystreeteconomics.newyorkfed.org/2016/04/just-released-introducing-the-frbny-nowcast.html" target="_blank">Just Released: Introducing the New York Fed Staff Nowcast</a><br> with Grant Aarons, Matt Cocci, Domenico Giannone, Argia Sbordone, Andrea Tambalotti<br /> (<b>Liberty Street Economics</b>, 2016)
+	</p>
+	<br>
+	<!-- NOTEs-->	
+	<!--<h3><a id="updates" class="anchor" href="#blogs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Short Notes:</h3>-->
+	<!--<p><a style="font-weight:bold" href="https://danicaratelli.github.io/research/research notes/note.pdf" target="_blank">On the Sustainability of Open Borders in a Fiscally Heterogeneous Union</a><br>-->
+	<!--</p>-->
+	<br>
+	<!-- LINKS -->
+	<!-- <h3><a id="updates" class="anchor" href="#codes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links:</h3> -->
+	<h3><a href="https://github.com/danicaratelli" target=_blank rel=noopener><i class="fa fa-github" style="font-size:36px"></i></a> &nbsp; <a href="https://scholar.google.com/citations?user=yFAbKIYAAAAJ&hl=en" target=_blank rel=noopener><i class="ai ai-google-scholar-square ai" style="font-size:36px"></i></a></h3>
+
+</section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
   </body>
+
 </html>
