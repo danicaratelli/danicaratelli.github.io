@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.24)  13 JUN 2023 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.24)  18 JUL 2023 13:12
 entering extended mode
 **./cv_caratelli.tex
 (cv_caratelli.tex
@@ -350,9 +350,9 @@ LaTeX Info: Redefining \nameref on input line 83.
 File: fc-english.def 2016/01/12
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 92.
+(Font)              <7> on input line 91.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 92.
+(Font)              <5> on input line 91.
 
 Overfull \hbox (11.3338pt too wide) in paragraph at lines 147--148
 [][][]\OT1/cmr/bx/n/10 ``Macroeconomic Now-cast-ing and Fore-cast-ing with Big 
@@ -380,24 +380,23 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 
 [2] ) 
 Here is how much of TeX's memory you used:
- 9087 strings out of 478868
- 136425 string characters out of 2848809
+ 9088 strings out of 478868
+ 136436 string characters out of 2848809
  471352 words of memory out of 3000000
- 26901 multiletter control sequences out of 15000+600000
+ 26902 multiletter control sequences out of 15000+600000
  405955 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,80p,1417b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,80p,1400b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/danic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/danic/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/danic/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/danic/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/danic/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danic/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/danic/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv_caratelli.pdf (2 pages, 120541 bytes).
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on cv_caratelli.pdf (2 pages, 109044 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
