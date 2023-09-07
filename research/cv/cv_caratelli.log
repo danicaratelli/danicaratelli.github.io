@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.24)  18 JUL 2023 13:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.24)  7 SEP 2023 18:21
 entering extended mode
 **./cv_caratelli.tex
 (cv_caratelli.tex
@@ -370,6 +370,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [1
 
 {C:/Users/danic/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Overfull \hbox (9.73232pt too wide) in paragraph at lines 197--198
+| \OT1/cmr/m/n/10 the Ad-vance-ment of Eco-nomic The-ory (Paris), Eu-ro-pean Ec
+o-nomic As-so-ci-a-tion (Barcelona) 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
 (fancyhdr)                Make it at least 18.11317pt, for example:
@@ -394,7 +399,7 @@ amsfonts/cm/cmbx12.pfb><C:/Users/danic/AppData/Local/Programs/MiKTeX/fonts/type
 /fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/danic/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danic/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv_caratelli.pdf (2 pages, 109044 bytes).
+Output written on cv_caratelli.pdf (2 pages, 109087 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
