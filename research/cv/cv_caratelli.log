@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.24)  20 APR 2025 14:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.24)  14 MAY 2025 15:44
 entering extended mode
 **./cv_caratelli.tex
 (cv_caratelli.tex
@@ -370,7 +370,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [1
 
 {C:/Users/danic/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
@@ -400,7 +400,7 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danic/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/danic/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/da
 nic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv_caratelli.pdf (2 pages, 128926 bytes).
+Output written on cv_caratelli.pdf (2 pages, 128948 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
