@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.24)  12 JAN 2026 21:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.24)  10 JUN 2026 04:47
 entering extended mode
 **./cv_caratelli.tex
 (cv_caratelli.tex
@@ -354,7 +354,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 92.
 
-Overfull \hbox (11.3338pt too wide) in paragraph at lines 165--166
+Overfull \hbox (11.3338pt too wide) in paragraph at lines 170--171
 [][][]\OT1/cmr/bx/n/10 ``Macroeconomic Now-cast-ing and Fore-cast-ing with Big 
 Data"[][] \OT1/cmr/m/n/10 with Bran-dyn Bok, Domenico
  []
@@ -370,7 +370,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 [1
 
 {C:/Users/danic/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
@@ -400,9 +400,9 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danic/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/danic/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/da
 nic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv_caratelli.pdf (2 pages, 130574 bytes).
+Output written on cv_caratelli.pdf (2 pages, 131663 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
